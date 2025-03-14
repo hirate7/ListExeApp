@@ -28,7 +28,7 @@ Partial Class frmCListExeApp
         '
         'cmdShow
         '
-        Me.cmdShow.Location = New System.Drawing.Point(27, 23)
+        Me.cmdShow.Location = New System.Drawing.Point(12, 23)
         Me.cmdShow.Name = "cmdShow"
         Me.cmdShow.Size = New System.Drawing.Size(77, 33)
         Me.cmdShow.TabIndex = 0
@@ -39,7 +39,7 @@ Partial Class frmCListExeApp
         '
         Me.List1.FormattingEnabled = True
         Me.List1.ItemHeight = 12
-        Me.List1.Location = New System.Drawing.Point(124, 23)
+        Me.List1.Location = New System.Drawing.Point(106, 23)
         Me.List1.Name = "List1"
         Me.List1.Size = New System.Drawing.Size(1100, 304)
         Me.List1.TabIndex = 1
@@ -48,7 +48,7 @@ Partial Class frmCListExeApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1280, 343)
+        Me.ClientSize = New System.Drawing.Size(1224, 343)
         Me.Controls.Add(Me.List1)
         Me.Controls.Add(Me.cmdShow)
         Me.Name = "frmCListExeApp"
